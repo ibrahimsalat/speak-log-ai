@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
   //   host: "::",
   //   port: 8080,
   // },
+  base: "/speak-log-ai/",
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
